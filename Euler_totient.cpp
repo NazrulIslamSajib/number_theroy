@@ -1,5 +1,5 @@
 ////kaj hocche Phi(n)-- 1-n er modde koto gula n sathe gcd  1
-
+///eta complexity hocce n * log log(n)
 #include<bits/stdc++.h>
 using namespace std;
 int main()
