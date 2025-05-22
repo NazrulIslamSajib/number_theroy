@@ -10,7 +10,7 @@ long long tao[mx+10];
 long long sigma[mx+10];
 void seive()
 {
-    for(int i=1;i*i<=mx;i++)
+    for(int i=1;i*i<=mx;i++) //eta complexity nlogn
     {
         for(int m=i;m<mx;m+=i)
         {
